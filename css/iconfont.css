@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2952480 */
+  src: url('//at.alicdn.com/t/font_2952480_vie21gzyg.woff2?t=1648295565631') format('woff2'),
+       url('//at.alicdn.com/t/font_2952480_vie21gzyg.woff?t=1648295565631') format('woff'),
+       url('//at.alicdn.com/t/font_2952480_vie21gzyg.ttf?t=1648295565631') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-github:before {
+  content: "\e64c";
+}
+/* 卡片处小图标 */
+.github_icon {
+  /* 修改颜色 */
+  color: #333333;
+  /* 修改大小 */
+  font-size: 24px;
+}
+.icon-qq:before {
+  content: "\e680";
+}
+
+.icon-weibo:before {
+  content: "\e666";
+}
+/* 卡片处小图标 */
+.weibo_icon {
+  /* 修改颜色 */
+  color: red;
+  /* 修改大小 */
+  font-size: 24px;
+}
+.icon-QQ:before {
+  content: "\e667";
+}
+/* 卡片处小图标 */
+.qq_icon {
+  /* 修改颜色 */
+  color: #24ade5;
+  /* 修改大小 */
+  font-size: 24px;
+}
+.icon-weixin:before {
+  content: "\e607";
+}
+.weixin_icon {
+  /* 修改颜色 */
+  color: #62b900;
+  /* 修改大小 */
+  font-size: 24px;
+}
+.icon-bilibili:before {
+  content: "\e600";
+}
+/* 卡片处小图标 */
+.bilibili_icon {
+  /* 修改颜色 */
+  color: #24ade5;
+  /* 修改大小 */
+  font-size: 24px;
+}
+.icon-guanyuwomen:before {
+  content: "\e628";
+}
+/* 卡片处小图标 */
+.guanyuwomen_icon {
+  /* 修改颜色 */
+  color: #6495ED;
+  /* 修改大小 */
+  font-size: 20px;
+}
+.icon-douyin:before {
+  content: "\e66e";
+}
+
