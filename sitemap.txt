@@ -1,3 +1,4 @@
+http://example.com/2022/04/11/byyl3/
 http://example.com/categories/index.html
 http://example.com/2022/03/02/Vue-10/
 http://example.com/2022/04/08/Aplayer/
@@ -59,6 +60,8 @@ http://example.com/tags/%E9%9A%90%E8%97%8F%E4%BB%A3%E7%A0%81%E6%95%88%E6%9E%9C%E
 http://example.com/tags/%E6%97%B6%E9%97%B4%E7%BA%BF%E5%B1%95%E7%A4%BA/
 http://example.com/tags/timeline/
 http://example.com/tags/Gallery%E7%9B%B8%E5%86%8A%E5%9C%96%E5%BA%AB/
+http://example.com/tags/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/
+http://example.com/tags/%E6%9C%89%E7%A9%B7%E8%87%AA%E5%8A%A8%E6%9C%BA/
 http://example.com/categories/%E5%8A%A8%E6%BC%AB/
 http://example.com/categories/Hexo/
 http://example.com/categories/Java/
@@ -68,3 +71,4 @@ http://example.com/categories/Vue%E7%9F%A5%E8%AF%86/
 http://example.com/categories/%E6%BC%94%E5%94%B1%E4%BC%9A-%E5%91%A8%E6%9D%B0%E4%BC%A6/
 http://example.com/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/
 http://example.com/categories/%E5%9B%BE%E7%89%87/
+http://example.com/categories/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/

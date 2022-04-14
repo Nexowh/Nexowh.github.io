@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-03-03T12:16:11.249Z</updated>
+  <updated>2022-04-13T12:12:21.380Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>编译原理第三章</title>
+    <link href="http://example.com/2022/04/11/byyl3/"/>
+    <id>http://example.com/2022/04/11/byyl3/</id>
+    <published>2022-04-11T02:00:00.000Z</published>
+    <updated>2022-04-13T12:12:21.380Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="有穷自动机"><a href="#有穷自动机" class="headerlink" title="有穷自动机"></a>有穷自动机</h1><img src="/img/byyl/byyl3(3.4)/3.1.jpg"  /><img src="/img/byyl/byyl3(3.4)/3.2.jpg"  /><img src="/img/byyl/byyl3(3.4)/3.3.jpg"  /><img src="/img/byyl/byyl3(3.4)/3.4.jpg"  /><img src="/img/byyl/byyl3(3.4)/3.5.jpg"  /><img src="/img/byyl/byyl3(3.4)/3.6.jpg"  /><img src="/img/byyl/byyl3(3.4)/3.7.jpg"  /><img src="/img/byyl/byyl3(3.4)/3.8.jpg"  /><img src="/img/byyl/byyl3(3.4)/3.9.jpg"  /><img src="/img/byyl/byyl3(3.4)/3.10.jpg"  /><img src="/img/byyl/byyl3(3.4)/3.11.jpg"  /><img src="/img/byyl/byyl3(3.4)/3.12.jpg"  /><img src="/img/byyl/byyl3(3.4)/3.13.jpg"  /><img src="/img/byyl/byyl3(3.4)/3.14.jpg"  /><img src="/img/byyl/byyl3(3.4)/3.15.jpg"  /><img src="/img/byyl/byyl3(3.4)/3.16.jpg"  /><img src="/img/byyl/byyl3(3.4)/3.17.jpg"  /><img src="/img/byyl/byyl3(3.4)/3.18.jpg"  /><img src="/img/byyl/byyl3(3.4)/3.19.jpg"  /><img src="/img/byyl/byyl3(3.4)/3.20.jpg"  /><img src="/img/byyl/byyl3(3.4)/3.21.jpg"  /><img src="/img/byyl/byyl3(3.4)/3.22.jpg"  />]]></content>
+    
+    
+    <summary type="html">对学习编译原理的一些知识笔记</summary>
+    
+    
+    
+    <category term="编译原理" scheme="http://example.com/categories/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/"/>
+    
+    
+    <category term="编译原理" scheme="http://example.com/tags/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/"/>
+    
+    <category term="有穷自动机" scheme="http://example.com/tags/%E6%9C%89%E7%A9%B7%E8%87%AA%E5%8A%A8%E6%9C%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>Gallery相冊圖庫</title>
