@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-04-13T12:12:21.380Z</updated>
+  <updated>2022-04-17T07:26:41.981Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>微信小程序（模板和配置）</title>
+    <link href="http://example.com/2022/04/16/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%EF%BC%88%E6%A8%A1%E5%9D%97%E4%B8%8E%E9%85%8D%E7%BD%AE%EF%BC%89/"/>
+    <id>http://example.com/2022/04/16/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%EF%BC%88%E6%A8%A1%E5%9D%97%E4%B8%8E%E9%85%8D%E7%BD%AE%EF%BC%89/</id>
+    <published>2022-04-16T10:00:00.000Z</published>
+    <updated>2022-04-17T07:26:41.981Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="小程序-模板与配置"><a href="#小程序-模板与配置" class="headerlink" title="小程序-模板与配置"></a>小程序-模板与配置</h1><h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><img src="/img/微信小程序/小程序_模块与配置/1.JPG"  />  <h1 id="WXML模板语法-数据绑定（一）"><a href="#WXML模板语法-数据绑定（一）" class="headerlink" title="WXML模板语法 -数据绑定（一）"></a>WXML模板语法 -数据绑定（一）</h1><p>1.数据绑定的基本原则</p><blockquote><p>①在 data 中定义数据<br>  ②在 WXML 中使用数据</p></blockquote><p>2.在 data 中定义页面的数据<br><img src="/img/微信小程序/小程序_模块与配置/2.JPG"  />  </p><p>3.Mustache 语法的格式</p><img src="/img/微信小程序/小程序_模块与配置/3.JPG"  />   <p>4.Mustache 语法的应用场景</p><blockquote><p>①绑定内容<br>  ②绑定属性<br>  ③运算（三元运算、算术运算等）</p></blockquote><p>5.动态绑定内容<br><img src="/img/微信小程序/小程序_模块与配置/4.JPG"  /><br>6.动态绑定属性<br><img src="/img/微信小程序/小程序_模块与配置/5.JPG"  /><br>7.三元运算<br><img src="/img/微信小程序/小程序_模块与配置/6.JPG"  /><br>8.算数运算<br><img src="/img/微信小程序/小程序_模块与配置/7.JPG"  />   </p><h1 id="WXML模板语法-事件绑定"><a href="#WXML模板语法-事件绑定" class="headerlink" title="WXML模板语法 -事件绑定"></a>WXML模板语法 -事件绑定</h1><p>1.什么是事件<br><img src="/img/微信小程序/小程序_模块与配置/8.JPG"  /><br>2.小程序中常用的事件<br><img src="/img/微信小程序/小程序_模块与配置/9.JPG"  /><br>3.事件对象的属性列表<br><img src="/img/微信小程序/小程序_模块与配置/10.JPG"  /><br>4.target 和 currentTarget 的区别<br><img src="/img/微信小程序/小程序_模块与配置/11.JPG"  /><br>5.bindtap的语法格式<br><img src="/img/微信小程序/小程序_模块与配置/12.JPG"  /><br>6.在事件处理函数中为data中的数据赋值<br><img src="/img/微信小程序/小程序_模块与配置/13.JPG"  /><br>7.事件传参<br><img src="/img/微信小程序/小程序_模块与配置/14.JPG"  /><br><img src="/img/微信小程序/小程序_模块与配置/15.JPG"  /><br>8.bindinput的语法格式<br><img src="/img/微信小程序/小程序_模块与配置/16.JPG"  /><br>9.实现文本框和 data 之间的数据同步</p><blockquote><p>实现步骤：<br>  ①定义数据<br>  ②渲染结构<br>  ③美化样式<br>  ④绑定 input 事件处理函数</p></blockquote><p>定义数据：<br><img src="/img/微信小程序/小程序_模块与配置/17.JPG"  /><br>渲染结构：<br><img src="/img/微信小程序/小程序_模块与配置/18.JPG"  /><br>美化样式：<br><img src="/img/微信小程序/小程序_模块与配置/19.JPG"  /><br>绑定 inpuC:\Users\lxdn\Desktop\微信小程序练习\pages\logst 事件处理函数：<br><img src="/img/微信小程序/小程序_模块与配置/20.JPG"  /></p><h1 id="WXML模块语法-条件渲染"><a href="#WXML模块语法-条件渲染" class="headerlink" title="WXML模块语法 - 条件渲染"></a>WXML模块语法 - 条件渲染</h1><p>1.wx:if<br><img src="/img/微信小程序/小程序_模块与配置/21.JPG"  /><br>2.结合 <block> 使用 wx:if<br><img src="/img/微信小程序/小程序_模块与配置/22.JPG"  /><br>3.hidden<br><img src="/img/微信小程序/小程序_模块与配置/23.JPG"  /><br>4.wx:if 与 hidden 的对比</p><blockquote><p>① 运行方式不同<br>  wx:if 以动态创建和移除元素的方式，控制元素的展示与隐藏hidden 以切换样式的方式（display: none&#x2F;block;），控制元素的显示与隐藏<br>② 使用建议<br> 频繁切换时，建议使用 hidden<br> 控制条件复杂时，建议使用 wx:if 搭配 wx:elif、wx:else 进行展示与隐藏的切换</p></blockquote><img src="/img/微信小程序/小程序_模块与配置/24.JPG"  />   <h1 id="WXML模块语法-列表渲染"><a href="#WXML模块语法-列表渲染" class="headerlink" title="WXML模块语法 - 列表渲染"></a>WXML模块语法 - 列表渲染</h1><p>1.wx:for<br><img src="/img/微信小程序/小程序_模块与配置/25.JPG"  /><br>2.手动指定索引和当前项的变量名*<br><img src="/img/微信小程序/小程序_模块与配置/26.JPG"  /><br>3.wx:key 的使用<br><img src="/img/微信小程序/小程序_模块与配置/27.JPG"  /></p><h1 id="WXSS模块样式"><a href="#WXSS模块样式" class="headerlink" title="WXSS模块样式"></a>WXSS模块样式</h1><p>1.什么是WXSS</p><blockquote><p>WXSS (WeiXin Style Sheets)是一套样式语言，用于美化 WXML 的组件样式，类似于网页开发中的 CSS。<br>2.WXSS和CSS的关系<br><img src="/img/微信小程序/小程序_模块与配置/28.JPG"  /></p></blockquote><h1 id="WXSS模块样式-rpx"><a href="#WXSS模块样式-rpx" class="headerlink" title="WXSS模块样式 -rpx"></a>WXSS模块样式 -rpx</h1><p>1.什么是rpx尺寸单位</p><blockquote><p>rpx（responsive pixel）是微信小程序独有的，用来解决屏适配的尺寸单位。</p></blockquote><p>2.rpx 的实现原理<br><img src="/img/微信小程序/小程序_模块与配置/29.JPG"  /><br>3.rpx 与 px 之间的单位换算*<br><img src="/img/微信小程序/小程序_模块与配置/30.JPG"  /></p><h1 id="WXSS模块样式-样式导入"><a href="#WXSS模块样式-样式导入" class="headerlink" title="WXSS模块样式 -样式导入"></a>WXSS模块样式 -样式导入</h1><p>1.什么是样式导入</p><blockquote><p>使用 WXSS 提供的 @import 语法，可以导入外联的样式表。<br>2.@import的语法格式<br><img src="/img/微信小程序/小程序_模块与配置/31.JPG"  /></p></blockquote><h1 id="WXSS模块样式-全局样式和局部样式"><a href="#WXSS模块样式-全局样式和局部样式" class="headerlink" title="WXSS模块样式 -全局样式和局部样式"></a>WXSS模块样式 -全局样式和局部样式</h1><p>1.全局样式</p><blockquote><p>定义在 app.wxss 中的样式为全局样式，作用于每一个页面。<br>2.局部样式<br>在页面的 .wxss 文件中定义的样式为局部样式，只作用于当前页面。</p></blockquote><p>注意：<br>①当局部样式和全局样式冲突时，根据就近原则，局部样式会覆盖全局样式<br>②当局部样式的权重大于或等于全局样式的权重时，才会覆盖全局的样式</p><h1 id="全局配置（三）"><a href="#全局配置（三）" class="headerlink" title="全局配置（三）"></a>全局配置（三）</h1><p>1.全局配置文件及常用的配置项<br><img src="/img/微信小程序/小程序_模块与配置/32.JPG"  /></p><h1 id="全局配置-window"><a href="#全局配置-window" class="headerlink" title="全局配置  window"></a>全局配置  window</h1><p>1.小程序窗口的组成部分<br><img src="/img/微信小程序/小程序_模块与配置/33.JPG"  /><br>2.了解 window 节点常用的配置项<br><img src="/img/微信小程序/小程序_模块与配置/34.JPG"  /><br>3.设置导航栏的标题<br><img src="/img/微信小程序/小程序_模块与配置/35.JPG"  /><br>4.设置导航栏的背景色<br><img src="/img/微信小程序/小程序_模块与配置/36.JPG"  /><br>5.设置导航栏的标题颜色<br><img src="/img/微信小程序/小程序_模块与配置/37.JPG"  /><br>6.全局开启下拉刷新功能</p><blockquote><p>概念：下拉刷新是移动端的专有名词，指的是通过手指在屏幕上的下拉滑动操作，从而重新加载页面数据的行为。<br>设置步骤：app.json -&gt; window -&gt; 把 enablePullDownRefresh 的值设置为 true<br>7.设置下拉刷新时窗口的背景色<br><img src="/img/微信小程序/小程序_模块与配置/38.JPG"  /><br>8.设置下拉刷新时 loading 的样式<br><img src="/img/微信小程序/小程序_模块与配置/39.JPG"  /><br>注意：在 app.json 中启用下拉刷新功能，会作用于每个小程序页面！<br>9.设置上拉触底的距离<br>概念：上拉触底是移动端的专有名词，通过手指在屏幕上的上拉滑动操作，从而加载更多数据的行为。<br>设置步骤： app.json -&gt; window -&gt; 为 onReachBottomDistance 设置新的数值</p></blockquote><p>注意：默认距离为50px，如果没有特殊需求，建议使用默认值即可。</p><h1 id="全局配置-tabBar"><a href="#全局配置-tabBar" class="headerlink" title="全局配置  tabBar"></a>全局配置  tabBar</h1><p>1.什么是 tabBar<br><img src="/img/微信小程序/小程序_模块与配置/40.JPG"  /><br>2.tabBar 的 6 个组成部分</p><blockquote><p>①backgroundColor：tabBar 的背景色<br>  ②selectedIconPath：选中时的图片路径<br>  ③borderStyle：tabBar 上边框的颜色<br>  ④iconPath：未选中时的图片路径<br>  ⑤selectedColor：tab 上的文字选中时的颜色<br>  ⑥color：tab 上文字的默认（未选中）颜色</p></blockquote><img src="/img/微信小程序/小程序_模块与配置/41.JPG"  />3.tabBar 节点的配置项<img src="/img/微信小程序/小程序_模块与配置/42.JPG"  />4.每个 tab 项的配置选项<img src="/img/微信小程序/小程序_模块与配置/43.JPG"  /><h1 id="全局配置-案例：配置tabBar"><a href="#全局配置-案例：配置tabBar" class="headerlink" title="全局配置  案例：配置tabBar"></a>全局配置  案例：配置tabBar</h1><p>1.需求描述<br><img src="/img/微信小程序/小程序_模块与配置/44.JPG"  /><br>2.实现步骤</p><blockquote><p>①拷贝图标资源<br>  ②新建 3 个对应的 tab 页面<br>  ③配置 tabBar 选项<br>3.步骤1 - 拷贝图标资源<br><img src="/img/微信小程序/小程序_模块与配置/45.JPG"  /><br>3.步骤2 - 新建 3 个对应的 tab 页面<br><img src="/img/微信小程序/小程序_模块与配置/46.JPG"  /><br>3.步骤3 - 配置 tabBar 选项<br>①打开 app.json 配置文件，和 pages、window 平级，新增 tabBar 节点<br>   ②tabBar 节点中，新增 list 数组，这个数组中存放的，是每个 tab 项的配置对象</p></blockquote><p> ③在 list 数组中，新增每一个 tab 项的配置对象。对象中包含的属性如下：<br>   pagePath 指定当前 tab 对应的页面路径【必填】<br>   text 指定当前 tab 上按钮的文字【必填】<br>   iconPath 指定当前 tab 未选中时候的图片路径【可选】<br>   selectedIconPath 指定当前 tab 被选中后高亮的图片路径【可选】</p><img src="/img/微信小程序/小程序_模块与配置/47.JPG"  />4.完整的配置代码<img src="/img/微信小程序/小程序_模块与配置/48.JPG"  /><h1 id="页面配置（四）"><a href="#页面配置（四）" class="headerlink" title="页面配置（四）"></a>页面配置（四）</h1><p>1.页面配置文件的作用</p><blockquote><p>小程序中，每个页面都有自己的 .json 配置文件，用来对当前页面的窗口外观、页面效果等进行配置。</p></blockquote><p>2.页面配置和全局配置的关系</p><blockquote><p>小程序中，app.json 中的 window 节点，可以全局配置小程序中每个页面的窗口表现。<br>如果某些小程序页面想要拥有特殊的窗口表现，此时，“页面级别的 .json 配置文件”就可以实现这种需求。</p></blockquote><p>注意：当页面配置与全局配置冲突时，根据就近原则，最终的效果以页面配置为准。</p><p>3.页面配置中常用的配置项<br><img src="/img/微信小程序/小程序_模块与配置/49.JPG"  /></p><h1 id="网络数据请求"><a href="#网络数据请求" class="headerlink" title="网络数据请求"></a>网络数据请求</h1><p>1.小程序中网络数据请求的限制<br><img src="/img/微信小程序/小程序_模块与配置/50.JPG"  /><br>2.配置 request 合法域名</p><blockquote><p>需求描述：假设在自己的微信小程序中，希望请求 <a href="https://www.escook.cn/">https://www.escook.cn/</a> 域名下的接口<br>配置步骤：登录微信小程序管理后台 -&gt; 开发 -&gt; 开发设置 -&gt; 服务器域名 -&gt; 修改 request 合法域名</p></blockquote><p>注意事项：<br>①域名只支持 https 协议<br>②域名不能使用 IP 地址或 localhost<br>③域名必须经过 ICP 备案<br>④服务器域名一个月内最多可申请 5 次修改</p><img src="/img/微信小程序/小程序_模块与配置/51.JPG"  /><p>3.发起 GET 请求<br><img src="/img/微信小程序/小程序_模块与配置/52.JPG"  /><br>4.发起 POST 请求<br><img src="/img/微信小程序/小程序_模块与配置/53.JPG"  /><br>5.在页面刚加载时请求数据<br><img src="/img/微信小程序/小程序_模块与配置/54.JPG"  /><br>5.跳过 request 合法域名校验<br><img src="/img/微信小程序/小程序_模块与配置/55.JPG"  /><br>6.关于跨域和 Ajax 的说明<br><img src="/img/微信小程序/小程序_模块与配置/56.JPG"  /></p><h1 id="案例-本地生活（首页）-五"><a href="#案例-本地生活（首页）-五" class="headerlink" title="案例 -本地生活（首页）(五)"></a>案例 -本地生活（首页）(五)</h1><p>1.首页效果以及实现步骤<br><img src="/img/微信小程序/小程序_模块与配置/57.JPG"  /><br>2.接口地址</p><blockquote><p>①获取轮播图数据列表的接口<br>  【GET】<a href="https://www.escook.cn/slides">https://www.escook.cn/slides</a><br>  ②获取九宫格数据列表的接口<br>  【GET】<a href="https://www.escook.cn/categories">https://www.escook.cn/categories</a></p></blockquote><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><img src="/img/微信小程序/小程序_模块与配置/58.JPG"  />]]></content>
+    
+    
+    <summary type="html">对于学习微信小程序的一些知识笔记</summary>
+    
+    
+    
+    <category term="微信小程序" scheme="http://example.com/categories/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+    <category term="微信小程序" scheme="http://example.com/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+    <category term="模板与配置" scheme="http://example.com/tags/%E6%A8%A1%E6%9D%BF%E4%B8%8E%E9%85%8D%E7%BD%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>微信小程序（起步）</title>
+    <link href="http://example.com/2022/04/15/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%EF%BC%88%E8%B5%B7%E6%AD%A5%EF%BC%89/"/>
+    <id>http://example.com/2022/04/15/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%EF%BC%88%E8%B5%B7%E6%AD%A5%EF%BC%89/</id>
+    <published>2022-04-15T10:00:00.000Z</published>
+    <updated>2022-04-15T09:02:14.583Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="小程序-起步"><a href="#小程序-起步" class="headerlink" title="小程序-起步"></a>小程序-起步</h1><h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><img src="/img/微信小程序/小程序_起步/111.JPG"  />  <h1 id="小程序简介（一）"><a href="#小程序简介（一）" class="headerlink" title="小程序简介（一）"></a>小程序简介（一）</h1><p>1.小程序与普通网页开发的区别<br><img src="/img/微信小程序/小程序_起步/1.JPG"  /><br>2.体验小程序<br><img src="/img/微信小程序/小程序_起步/2.JPG"  />   </p><h1 id="第一个小程序-注册小程序开发账号（二）"><a href="#第一个小程序-注册小程序开发账号（二）" class="headerlink" title="第一个小程序 -注册小程序开发账号（二）"></a>第一个小程序 -注册小程序开发账号（二）</h1><p>1.点击注册按钮<br><img src="/img/微信小程序/小程序_起步/3.JPG"  /><br>2.选择注册账号的类型<br><img src="/img/微信小程序/小程序_起步/4.JPG"  /><br>3.填写账号信息<br><img src="/img/微信小程序/小程序_起步/5.JPG"  /><br>4. 提示邮箱激活<br><img src="/img/微信小程序/小程序_起步/6.JPG"  /><br>5. 点击链接激活账号<br><img src="/img/微信小程序/小程序_起步/7.JPG"  /><br>6. 选择主体类型<br><img src="/img/微信小程序/小程序_起步/8.JPG"  /><br>7. 主体信息登记<br><img src="/img/微信小程序/小程序_起步/9.JPG"  /><br>8. 获取小程序的 AppID<br><img src="/img/微信小程序/小程序_起步/10.JPG"  />   </p><h1 id="第一个小程序-安装开发者工具"><a href="#第一个小程序-安装开发者工具" class="headerlink" title="第一个小程序 - 安装开发者工具"></a>第一个小程序 - 安装开发者工具</h1><ol><li>了解微信开发者工具<img src="/img/微信小程序/小程序_起步/11.JPG"  /></li><li>下载<img src="/img/微信小程序/小程序_起步/12.JPG"  /></li><li>安装<img src="/img/微信小程序/小程序_起步/13.JPG"  /><img src="/img/微信小程序/小程序_起步/14.JPG"  /><img src="/img/微信小程序/小程序_起步/15.JPG"  /></li><li>扫码登录<img src="/img/微信小程序/小程序_起步/16.JPG"  /><img src="/img/微信小程序/小程序_起步/17.JPG"  /></li><li>设置外观和代理<img src="/img/微信小程序/小程序_起步/18.JPG"  /></li></ol><h1 id="第一个小程序-创建小程序项目"><a href="#第一个小程序-创建小程序项目" class="headerlink" title="第一个小程序 - 创建小程序项目"></a>第一个小程序 - 创建小程序项目</h1><ol><li>点击“加号”按钮<img src="/img/微信小程序/小程序_起步/19.JPG"  /></li><li>填写项目信息<img src="/img/微信小程序/小程序_起步/20.JPG"  /></li><li>项目创建完成<img src="/img/微信小程序/小程序_起步/21.JPG"  /></li><li>在模拟器上查看项目效果<img src="/img/微信小程序/小程序_起步/22.JPG"  /></li><li>在真机上预览项目效果<img src="/img/微信小程序/小程序_起步/23.JPG"  /></li><li>主界面的 5 个组成部分<img src="/img/微信小程序/小程序_起步/24.JPG"  /></li></ol><h1 id="小程序代码的构成-（三）"><a href="#小程序代码的构成-（三）" class="headerlink" title="小程序代码的构成 （三）"></a>小程序代码的构成 （三）</h1><h1 id="2-1小程序代码的构成-项目结构"><a href="#2-1小程序代码的构成-项目结构" class="headerlink" title="2.1小程序代码的构成-项目结构"></a>2.1小程序代码的构成-项目结构</h1><p>1.了解项目的基本组成结构<br><img src="/img/微信小程序/小程序_起步/25.JPG"  /><br>2.小程序页面的组成部分<br><img src="/img/微信小程序/小程序_起步/26.JPG"  /></p><h1 id="小程序代码的构成-JSON配置文件"><a href="#小程序代码的构成-JSON配置文件" class="headerlink" title="小程序代码的构成-JSON配置文件"></a>小程序代码的构成-JSON配置文件</h1><ol><li>JSON 配置文件的作用<img src="/img/微信小程序/小程序_起步/27.JPG"  /></li><li>app.json 文件<img src="/img/微信小程序/小程序_起步/28.JPG"  /></li><li>project.config.json 文件<img src="/img/微信小程序/小程序_起步/29.JPG"  /></li><li>sitemap.json 文件<img src="/img/微信小程序/小程序_起步/30.JPG"  /></li><li>页面的 .json 配置文件<img src="/img/微信小程序/小程序_起步/31.JPG"  /></li><li>新建小程序页面<img src="/img/微信小程序/小程序_起步/32.JPG"  /></li><li>修改项目首页<img src="/img/微信小程序/小程序_起步/33.JPG"  /></li></ol><h1 id="小程序代码的构成-WXML模板"><a href="#小程序代码的构成-WXML模板" class="headerlink" title="小程序代码的构成-WXML模板"></a>小程序代码的构成-WXML模板</h1><ol><li>什么是 WXML<blockquote><p> WXML（WeiXin Markup Language）是小程序框架设计的一套标签语言，用来构建小程序页面的结构，其作用类似于网页开发中的 HTML。</p></blockquote></li><li>WXML和HTML的区别<img src="/img/微信小程序/小程序_起步/34.JPG"  /></li></ol><h1 id="小程序代码的构成-WXML样式"><a href="#小程序代码的构成-WXML样式" class="headerlink" title="小程序代码的构成-WXML样式"></a>小程序代码的构成-WXML样式</h1><ol><li>什么是 WXSS<blockquote><p>WXSS (WeiXin Style Sheets)是一套样式语言，用于描述 WXML 的组件样式，类似于网页开发中的 CSS。</p></blockquote></li><li>WXSS和CSS的区别<img src="/img/微信小程序/小程序_起步/35.JPG"  /></li></ol><h1 id="小程序代码的构成-JS逻辑交互"><a href="#小程序代码的构成-JS逻辑交互" class="headerlink" title="小程序代码的构成-JS逻辑交互"></a>小程序代码的构成-JS逻辑交互</h1><ol><li>小程序中的 .js文件<blockquote><p>一个项目仅仅提供界面展示是不够的，在小程序中，我们通过 .js 文件来处理用户的操作。例如：响应用户的点击、获取用户的位置等等。</p></blockquote></li></ol><p>2.小程序.js文件的分类<br><img src="/img/微信小程序/小程序_起步/36.JPG"  /></p><h1 id="小程序的宿主环境-（四）"><a href="#小程序的宿主环境-（四）" class="headerlink" title="小程序的宿主环境 （四）"></a>小程序的宿主环境 （四）</h1><h1 id="小程序的宿主环境-宿主环境简介"><a href="#小程序的宿主环境-宿主环境简介" class="headerlink" title="小程序的宿主环境-宿主环境简介"></a>小程序的宿主环境-宿主环境简介</h1><p>1.什么是宿主环境<br><img src="/img/微信小程序/小程序_起步/37.JPG"  /><br>2.小程序的宿主环境<br><img src="/img/微信小程序/小程序_起步/38.JPG"  /><br>3.小程序宿主环境包含的内容</p><blockquote><p>①通信模型  ②运行机制  ③组件   ④API</p></blockquote><h2 id="小程序的宿主环境-通信模型"><a href="#小程序的宿主环境-通信模型" class="headerlink" title="小程序的宿主环境-通信模型"></a>小程序的宿主环境-通信模型</h2><p>1.通信的主体<br><img src="/img/微信小程序/小程序_起步/39.JPG"  /><br>2.小程序的通信模型<br><img src="/img/微信小程序/小程序_起步/40.JPG"  /></p><h2 id="小程序的宿主环境-组件（☆）"><a href="#小程序的宿主环境-组件（☆）" class="headerlink" title="小程序的宿主环境-组件（☆）"></a>小程序的宿主环境-组件（☆）</h2><p>1.小程序中组件的分类<br><img src="/img/微信小程序/小程序_起步/41.JPG"  /><br>2.常见的视图容器类组件（☆）<br><img src="/img/微信小程序/小程序_起步/42.JPG"  /><br>3.view组件的基本使用<br><img src="/img/微信小程序/小程序_起步/43.JPG"  /><br>4. scroll-view 组件的基本使用<br><img src="/img/微信小程序/小程序_起步/44.JPG"  /><br>5. swiper 和 swiper-item 组件的基本使用<br><img src="/img/微信小程序/小程序_起步/45.JPG"  /><br>6. swiper 组件的常用属性<br><img src="/img/微信小程序/小程序_起步/46.JPG"  /><br>7. 常用的基础内容组件<br><img src="/img/微信小程序/小程序_起步/47.JPG"  /><br>8. text 组件的基本使用<br><img src="/img/微信小程序/小程序_起步/48.JPG"  /><br>9. rich-text 组件的基本使用<br><img src="/img/微信小程序/小程序_起步/49.JPG"  /><br>10. 其它常用组件、<br><img src="/img/微信小程序/小程序_起步/50.JPG"  /><br>11. button 按钮的基本使用<br><img src="/img/微信小程序/小程序_起步/51.JPG"  /><br>12. image 组件的基本使用<br><img src="/img/微信小程序/小程序_起步/52.JPG"  /><br>13. image 组件的 mode 属性<br><img src="/img/微信小程序/小程序_起步/53.JPG"  /></p><h1 id="小程序的宿主环境-API"><a href="#小程序的宿主环境-API" class="headerlink" title="小程序的宿主环境-API"></a>小程序的宿主环境-API</h1><p>1.小程序API概述</p><blockquote><p>小程序中的 API 是由宿主环境提供的，通过这些丰富的小程序 API，开发者可以方便的调用微信提供的能力，例如：获取用户信息、本地存储、支付功能等。</p></blockquote><p>2.小程序API的3大分类<br><img src="/img/微信小程序/小程序_起步/54.JPG"  /></p><h1 id="协同工作和发布-（五）"><a href="#协同工作和发布-（五）" class="headerlink" title="协同工作和发布 （五）"></a>协同工作和发布 （五）</h1><h1 id="协同工作和发布-协同工作"><a href="#协同工作和发布-协同工作" class="headerlink" title="协同工作和发布-协同工作"></a>协同工作和发布-协同工作</h1><p>1.了解权限管理需求</p><blockquote><p>在中大型的公司里，人员的分工非常仔细：同一个小程序项目，一般会有不同岗位、不同角色的员工同时参与设计与开发。</p></blockquote><blockquote><p>此时出于管理需要，我们迫切需要对不同岗位、不同角色的员工的权限进行边界的划分，使他们能够高效的进行协同工作。</p></blockquote><p>2.了解项目成员的组织结构<br><img src="/img/微信小程序/小程序_起步/55.JPG"  /><br>3.小程序的开发流程<br><img src="/img/微信小程序/小程序_起步/56.JPG"  /></p><h1 id="协同工作和发布-小程序成员管理"><a href="#协同工作和发布-小程序成员管理" class="headerlink" title="协同工作和发布 -小程序成员管理"></a>协同工作和发布 -小程序成员管理</h1><p>1.成员管理的两个方面<br><img src="/img/微信小程序/小程序_起步/57.JPG"  /><br>2.不同项目成员对应的权限<br><img src="/img/微信小程序/小程序_起步/58.JPG"  /><br>3.开发者的权限说明<br><img src="/img/微信小程序/小程序_起步/59.JPG"  /><br>4. 添加项目成员和体验成员<br><img src="/img/微信小程序/小程序_起步/60.JPG"  /></p><h1 id="协同工作和发布-小程序的版本"><a href="#协同工作和发布-小程序的版本" class="headerlink" title="协同工作和发布 -小程序的版本"></a>协同工作和发布 -小程序的版本</h1><ol><li>软件开发过程中的不同版本<blockquote><p>在软件开发过程中，根据时间节点的不同，会产出不同的软件版本，例如：<br>①开发者编写代码的同时，对项目代码进行自测（开发版本）<br>②直到程序达到一个稳定可体验的状态时，开发者把体验版本给到产品经理和测试人员进行体验测试<br>③最后修复完程序的 Bug 后，发布正式版供外部用户使用</p></blockquote></li></ol><p>2.小程序的版本<br><img src="/img/微信小程序/小程序_起步/61.JPG"  /></p><h1 id="协同工作和发布-发布上线"><a href="#协同工作和发布-发布上线" class="headerlink" title="协同工作和发布 -发布上线"></a>协同工作和发布 -发布上线</h1><p>1.小程序发布上线的整体步骤</p><blockquote><p>一个小程序的发布上线，一般要经过上传代码 -&gt; 提交审核 -&gt; 发布这三个步骤。</p></blockquote><p>2.上传代码<br><img src="/img/微信小程序/小程序_起步/62.JPG"  /></p><p>3.在后台查看上传之后版本<br><img src="/img/微信小程序/小程序_起步/63.JPG"  /></p><p>4.提交审核<br><img src="/img/微信小程序/小程序_起步/64.JPG"  /></p><p>5.发布<br><img src="/img/微信小程序/小程序_起步/65.JPG"  /></p><p>5.基于小程序码进行推广<br><img src="/img/微信小程序/小程序_起步/66.JPG"  /></p><h1 id="协同工作和发布-运营数据"><a href="#协同工作和发布-运营数据" class="headerlink" title="协同工作和发布 -运营数据"></a>协同工作和发布 -运营数据</h1><p>1.查看小程序运营数据的两种方式<br><img src="/img/微信小程序/小程序_起步/67.JPG"  /></p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><img src="/img/微信小程序/小程序_起步/68.JPG"  />]]></content>
+    
+    
+    <summary type="html">对于学习微信小程序的一些知识笔记</summary>
+    
+    
+    
+    <category term="微信小程序" scheme="http://example.com/categories/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+    <category term="微信小程序" scheme="http://example.com/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+    <category term="起步" scheme="http://example.com/tags/%E8%B5%B7%E6%AD%A5/"/>
+    
+  </entry>
   
   <entry>
     <title>编译原理第三章</title>
@@ -432,54 +478,6 @@
     <category term="Vue" scheme="http://example.com/tags/Vue/"/>
     
     <category term="路由管理" scheme="http://example.com/tags/%E8%B7%AF%E7%94%B1%E7%AE%A1%E7%90%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>编程小知识</title>
-    <link href="http://example.com/2022/03/02/Vue-10/"/>
-    <id>http://example.com/2022/03/02/Vue-10/</id>
-    <published>2022-03-02T10:00:00.000Z</published>
-    <updated>2022-04-08T04:17:03.592Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>在搭建博客时遇到了一些问题,现将他记录下来  </p><span id="more"></span><h2 id="hexo"><a href="#hexo" class="headerlink" title="hexo  "></a>hexo  </h2><p>如何文章在首页只显示一部分<br>这个只要在文章中加<span style="color:red"><code>&lt;:!--more--&gt;</code></span>标记 ，该标记以后部分就不在显示了，只有展开全部才显示，这是hexo定义的。  </p><h2 id="Html"><a href="#Html" class="headerlink" title="Html"></a>Html</h2><p><a href="https://www.runoob.com/tags/tag-details.html">details</a><br>使用&lt;填充符details&gt;&lt;填充符&#x2F;details&gt;点击可以将其中的内容折叠起来。<br>&lt;填充符details  open&gt;将列表直接展开不用点击</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">details</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">summary</span>&gt;</span></span>Copyright 2011.<span class="language-xml"><span class="tag">&lt;/<span class="name">summary</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">p</span>&gt;</span></span>All pages and graphics on this web site are the property of W3School.<span class="language-xml"><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;/<span class="name">details</span>&gt;</span></span></span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;在搭建博客时遇到了一些问题,现将他记录下来  &lt;/p&gt;</summary>
-    
-    
-    
-    <category term="编程" scheme="http://example.com/categories/%E7%BC%96%E7%A8%8B/"/>
-    
-    
-    <category term="Markdown" scheme="http://example.com/tags/Markdown/"/>
-    
-    <category term="主题" scheme="http://example.com/tags/%E4%B8%BB%E9%A2%98/"/>
-    
-    <category term="教程" scheme="http://example.com/tags/%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Java知识点复习</title>
-    <link href="http://example.com/2022/02/28/Java/"/>
-    <id>http://example.com/2022/02/28/Java/</id>
-    <published>2022-02-28T12:39:00.000Z</published>
-    <updated>2022-03-15T02:21:11.884Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div class="note simple"><p>默認 提示塊標籤</p></div><div class="note default simple"><p>default 提示塊標籤</p></div><div class="note primary simple"><p>primary 提示塊標籤</p></div><div class="note success simple"><p>success 提示塊標籤</p></div><div class="note info simple"><p>info 提示塊標籤</p></div><div class="note warning simple"><p>warning 提示塊標籤</p></div><div class="note danger simple"><p>danger 提示塊標籤</p></div>]]></content>
-    
-    
-    <summary type="html">对学习Java的一些知识笔记</summary>
-    
-    
-    
-    <category term="Java" scheme="http://example.com/categories/Java/"/>
-    
-    
-    <category term="Java" scheme="http://example.com/tags/Java/"/>
-    
-    <category term="Android" scheme="http://example.com/tags/Android/"/>
     
   </entry>
   
