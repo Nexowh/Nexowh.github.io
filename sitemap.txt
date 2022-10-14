@@ -1,4 +1,5 @@
-http://example.com/2022/10/14/Mybatis/
+http://example.com/2022/06/01/Mybatis/Mybatis/
+http://example.com/2022/06/01/Mybatis/
 http://example.com/music/index.html
 http://example.com/2022/04/08/Aplayer/
 http://example.com/2022/05/06/day06-%E6%96%B9%E6%B3%95/%E7%AC%94%E8%AE%B0/%E6%96%B9%E6%B3%95/
@@ -84,6 +85,7 @@ http://example.com/tags/%E6%A8%A1%E6%9D%BF%E4%B8%8E%E9%85%8D%E7%BD%AE/
 http://example.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/
 http://example.com/tags/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6%E8%AF%AD%E5%8F%A5/
 http://example.com/tags/%E6%95%B0%E7%BB%84/
+http://example.com/tags/Mybatis/
 http://example.com/categories/%E5%8A%A8%E6%BC%AB/
 http://example.com/categories/Hexo/
 http://example.com/categories/Java/
